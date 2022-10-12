@@ -1,0 +1,50 @@
+*
+{
+    padding: 10px;
+    margin: 0;
+}
+#formDiv{
+    border: 0px solid red;
+    margin: auto;
+    height: 400px;
+    width: 500px;
+}
+.in_put{
+    outline: none;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 9px;
+    border: 1px solid gray;
+    padding: 6px;
+
+}
+button{
+    border: none;
+    background-color: rgb(255, 132, 0);
+    color:white;
+    padding: 9px;
+    border-radius: 6px;
+    margin-left: 70px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:white;
+    color: rgb(255, 132, 0);
+}
+body{
+
+    background-image: url("https://images.pexels.com/photos/248747/pexels-photo-248747.jpeg?cs=srgb&dl=pexels-pixabay-248747.jpg&fm=jpg");
+    background-position: center; /* Center the image */
+    background-repeat: repeat; 
+    background-size: cover;
+
+}
+h2{
+    color: aqua;
+}
+li{
+    color: rgb(255, 77, 0);
+
+}

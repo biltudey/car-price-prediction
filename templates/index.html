@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web app</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">  
+</head>
+<body>
+
+    <div id="formDiv"  >
+        <h2>Car Price Prediction app</h2>
+        <form action="{{url_for('submit')}}" method="POST">
+            
+            <input type="text" class="in_put" placeholder='Enter car registration year' name = "year" required>
+            <input type="text" class="in_put" placeholder='Enter Total km driven'name = "km_driven" required>
+
+            <select class="in_put" name = "fuel">
+                <option>Diesel</option>
+                <option>Petrol</option>
+                <option>CNG</option>
+                <option>LPG</option>
+            </select>
+            <select class="in_put" name = "seller_type">
+                <option>Individual</option>
+                <option>Dealer</option>
+                <option>Trustmark Dealer</option>
+            </select>
+            <select class="in_put" name = "transmission">
+                <option>Manual</option>
+                <option>Automatic</option>
+                
+            </select>
+            <select class="in_put" name = "owner">
+                <option>First Owner</option>
+                <option>Second Owner</option>
+                <option>Third Owner</option>
+                <option>Fourth & Above Owner</option>
+                <option>Test Drive Car</option>
+                
+            </select>
+
+            <input type="text" class="in_put" placeholder='Enter mileage' name = "mileage" required>
+            <input type="text" class="in_put" placeholder='Enter engine' name = "engine" >
+            <input type="text" class="in_put" placeholder='Enter max_power' name = "max_power" required>
+            <input type="text" class="in_put" placeholder='Enter seats' name = "seats" required>
+            <br>
+            <br>
+            <button class="'in_put">Submit</button>
+    
+    
+    
+        </form>
+        <br>
+        <h2> your car price should be : {{submit_value}}</h2>
+        <ol>
+         <!-- For loop logic of jinja template -->
+         <h2>Suggested Car : </h2>
+         {%for i in car%}
+           
+         <li>{{i}}</li>
+             <br>
+         {%endfor%}
+           
+         </ol>
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+    </div>
+    <p style="color: rgb(86, 234, 49);">This Project is created by Biltu Dey  </p>
+    
+   
+</body>
+</html>
