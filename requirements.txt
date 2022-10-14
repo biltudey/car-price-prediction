@@ -4,6 +4,4 @@ pandas
 numpy
 matplotlib
 gunicorn
-flask_cors
-catboost
-re
+pickle
