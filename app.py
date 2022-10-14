@@ -1,5 +1,4 @@
 
-import re
 from flask import *
 import pickle
 import numpy as np
