@@ -1,10 +1,13 @@
 
 # Hi, I'm Biltu! 👋
 
+To Test my application :
+https://calculate-car-price.herokuapp.com/
+
 
 ## Installation
 
-To run this app you need have the following Libary
+To run locally this app you need have the following Libary
 
 ```bash
   pip install flask
