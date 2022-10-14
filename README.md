@@ -16,7 +16,6 @@ To run this app you need have the following Libary
 
 Clone the project
 
-unzip the model folder and move the model.pkl file to your current directory
 
 ```bash
   gh repo clone biltudey/car-price-prediction
