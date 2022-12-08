@@ -2,7 +2,7 @@
 # Hi, I'm Biltu! 👋
 
 To Test my application :
-https://calculate-car-price.herokuapp.com/
+https://car-price-cheacker.onrender.com/
 
 
 ## Installation
